@@ -1,0 +1,26 @@
+{
+  "name": "akjs-07data",
+  "version": "0.0.1",
+  "publishConfig": {
+    "registry": "http://192.168.69.42:8081/repository/npmhosted/"
+  },
+
+  "scripts": {
+   
+    "publish":"npm run publish",
+    "rebuild":"tsc"
+ 
+  },
+  "dependencies": {
+   
+  },
+  "devDependencies": {
+   
+    "typescript": "~2.6.0",
+    "npm-scripts-info": "^0.3.4",
+    "npm-run-all": "^4.0.2",
+    "shx": "^0.2.2"
+   
+
+  }
+}
